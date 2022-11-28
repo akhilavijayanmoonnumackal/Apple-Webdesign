@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+header{
+    width: 100%;
+    height: 45px;
+    background: #2f2f33;
+}
+nav{
+    position: fixed;
+    background-color: #2f2f33;
+    color: #f5f5f7;
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+}
+ul{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 5px 50px;
+}
+li{
+    list-style: none;
+    margin-left: 60px;
+    
+    
+}
+li a{
+    text-decoration: none;
+    color: #e1e1e1e6;
+    
+}
+main{
+    padding-top: 0px;
+    
+}
+#banner1{
+    background-image: url('images/spirited.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    padding-top: 20px;
+    
+}
+.banner > *{
+    display: flex;
+    justify-content: center;
+}
+
+.top-section{
+    background-color: #f5f5f7;
+    width: 100%;
+    height: 44px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 10px;
+    
+}
+.para{
+    text-align: center;
+    color: rgb(66, 64, 64);
+    
+    
+}
+.para a{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 23px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 200;
+}
+.para1 a{
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 23px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+}
+.music{
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 505px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+
+}
+#banner2{
+    background-image: url('images/apple shopping.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;    
+
+}
+.para2{
+    color: #f5f5f7;
+    padding-top: 61px;
+    text-decoration: none;    
+    text-align: center;
+    padding-top: 66px;    
+    letter-spacing: inherit;
+    font-size: 40px;
+    line-height: 1.11053;
+    font-weight: 400;
+    letter-spacing: .010em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.para21{
+    color: #6e6e73;
+    text-align: center;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 20px;
+    padding-top: 16px;
+
+}
+.para3 a{
+    color: #2997ff;
+    padding-top: 32px;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 46px;
+}
+#banner3{
+    background-image: url('images/iphone.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+   
+}
+.para41{
+    padding-top: 77px;
+    color: black;
+    letter-spacing: inherit;
+    font-size: 48px;
+    line-height: 1.11053;
+    font-weight: 400;
+    letter-spacing: .010em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+.para42{
+    padding-top: 12px;
+    color: black;
+    letter-spacing: inherit;
+    font-size: 19px;
+    line-height: 1.11053;
+    font-weight: 400;
+    letter-spacing: .010em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.para4 a {
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 26px;
+    padding-left: 20px;
+    padding-right: 46px;
+    
+}
+.category{
+    display: flex;
+}
+.category .box{
+    background-size: cover;   
+    width: 50%;
+    height: 80vh;
+    margin: 10px;
+}
+.category .box a{
+    text-decoration: none;   
+}
+.box11{
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 47px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+
+}
+.box12{
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 12px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 21px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+
+}
+.box13{
+    padding-top: 10px;
+}
+.box13 a{
+    color: #2997ff;
+    padding-top: 34px;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 18px;
+    padding-right: 49px;
+    
+
+}
+#box1{
+    background-image: url('images/1.jpg');
+    text-align: center;
+}
+#box2{
+    background-image: url('images/5.jpg');
+    text-align: center;
+   
+}
+.box22{
+    padding-top: 10px;
+}
+.box23{
+    padding-top: 14px;
+}
+.box23 a{
+    padding-left: 18px;
+    padding-right: 49px;
+    font-size: 16px;
+}
+.category1{
+    display: flex;
+}
+.category1 .boxs{
+    background-size: cover;
+    width: 50%;
+    height: 80vh;
+    margin: 10px;
+}
+.box33 a{
+    color: #2997ff;
+    padding-top: 34px;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+#box3{
+    background-image: url('images/8.jpg');
+    text-align: center;
+}
+.box21{
+    color: black;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 48px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+
+}
+#box4{
+    background-image: url('images/im 6.jpg');
+    text-align: center;  
+}
+.category2{
+    display: flex;
+}
+.category2 .boxs1{
+    background-size: cover;
+    width: 50%;
+    height: 80vh;
+    margin: 10px;
+}
+
+.box31{
+    color: black;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 89px;
+    padding-right: 13px;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+    
+
+}
+.box32{
+    color: black;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 2px;
+    padding-right: 23px;
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+
+}
+.box33 a{
+    padding-right: 20px;
+    font-size: 16px;
+}
+.box41{
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 49px;
+    padding-right: 0;
+    text-decoration: none;
+    font-size: 29px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+
+}
+.box42{
+    color: white;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 9px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+}
+.box43{
+    padding-top: 7px;
+}
+.box43 a{
+    color: #2997ff;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 9px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+}
+.box44 {
+    color: rgb(116, 35, 35);
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 7px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+}
+#box5{
+    background-image: url('images/7.1.jpg');
+    text-align: center;
+}
+.box51{
+    color: black;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 65px;
+    padding-left: 26px;
+    text-decoration: none;
+    font-size: 29px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+
+}
+.box52{
+    color: rgb(116, 35, 35);
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 7px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+}
+.box53{
+    color:black;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 7px;
+    padding-right: 0;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+}
+.box54{
+    padding-top: 5px;
+}
+.box54 a{
+    color: #2997ff;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 2px;
+    padding-right: 13px;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+}
+#box6{
+    background-image: url('images/6.1.jpg');
+    text-align: center;
+}
+.box61{
+    color: black;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 62px;
+    padding-left: 21px;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+
+}
+.box62{
+    color: black;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 8px;
+    padding-right: 16px;
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+
+}
+.box63{
+    padding-top: 6px;
+    padding-left: 36px;
+}
+.box63 a{
+    color: #2997ff;
+    text-align: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 6px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: inherit;
+    pointer-events: all;
+    z-index: 4;
+    font-weight: 400;
+    
+}
+.series{
+    background-image: url('images/last.png');
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+    background: rgb(246 246 247 / 95%);
+    font-display: flex;
+    justify-content: center;
+    padding-bottom: 18px;
+}
+.container{
+    width: 90%;
+    height: 100%; 
+    
+}
+
+.paragraph{
+    padding-top: 40px;
+    font-size: 0.8em;
+    list-style: none;
+    color: #86868b;
+    border-bottom: 1px solid var(--greyLight);
+    padding-left: 370px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    padding-right: 100px;
+}
+.style{
+    width: 65%;
+    margin-left: 364px;
+}
+li{
+    margin: 8px 0;
+    letter-spacing: 0.1px;
+    padding-left: 50px;
+}
+.item_links{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+.item_links a{
+    text-decoration: none;
+}
+.item_links_column{
+    width: 80%;
+    height: 100%;
+    margin-left: 361px;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    
+}
+table{
+    margin-top: 10px;
+    width: 90%;
+}
+table:hover{
+    cursor: pointer;
+}
+a{
+    font-size: 12px;
+    color: #2997ff;
+    margin-bottom: 12px;
+}
+.footer_more{
+    font-size: 13px;
+    color: #86868b;
+    padding-bottom: 10px solid var(--greyLight);
+    padding-left: 357px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+.footer_more a{
+    color: #06c;
+}
+.footer_copyright{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #86868b;
+    margin-top: 4px;
+    position: relative;
+}
+.style1{
+    width: 91%;
+    margin-left: 0;
+}
+.copy{
+    padding-left: 353px;
+}
+.links{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding-left: 326px;
+    padding-top: 14px;
+    
+}
+.links a{
+    padding: 0 10px;
+    color: #515154;
+    border-left: 1px solid var(--greyLight);
+    text-decoration: none;
+    
+}
+
